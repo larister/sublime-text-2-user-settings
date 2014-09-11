@@ -1,0 +1,22 @@
+[
+	{
+		"args":
+		{
+			"action_args":
+			{
+				"register": "+"
+			},
+			"action_command": "vi_copy",
+			"motion_args":
+			{
+				"character": "{",
+				"outer": true
+			},
+			"motion_clip_to_line": false,
+			"motion_command": "vi_expand_to_brackets",
+			"motion_inclusive": false,
+			"motion_mode": 2
+		},
+		"command": "vi_eval"
+	}
+]

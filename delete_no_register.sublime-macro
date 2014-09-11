@@ -1,0 +1,50 @@
+[
+	{
+		"args":
+		{
+			"commands":
+			[
+				[
+					"enter_visual_mode",
+					null
+				],
+				[
+					"vi_eval",
+					{
+						"action_args": null,
+						"action_command": null,
+						"motion_args":
+						{
+							"by": "stops",
+							"empty_line": true,
+							"extend": true,
+							"forward": true,
+							"punct_begin": true,
+							"word_begin": true
+						},
+						"motion_clip_to_line": true,
+						"motion_command": "move",
+						"motion_inclusive": false,
+						"motion_mode": 0
+					}
+				],
+				[
+					"vi_eval",
+					{
+						"action_args":
+						{
+							"register": "-"
+						},
+						"action_command": "vi_delete",
+						"motion_args": null,
+						"motion_clip_to_line": false,
+						"motion_command": null,
+						"motion_inclusive": false,
+						"motion_mode": 0
+					}
+				]
+			]
+		},
+		"command": "sequence"
+	}
+]

@@ -1,0 +1,49 @@
+[
+    { "keys": ["alt+backspace"], "command": "run_macro_file", "args": {"file": "Packages/User/delete_subword.sublime-macro"} },
+    { "keys": ["alt+delete"], "command": "run_macro_file", "args": {"file": "Packages/User/delete_subword_forward.sublime-macro"} },
+    { "keys": ["super+;"], "command": "run_macro_file", "args": {"file": "Packages/User/Add EOF Semicolon.sublime-macro"} },
+    { "keys": ["super+ctrl+;"], "command": "run_macro_file", "args": {"file": "Packages/User/Add Line Semicolon.sublime-macro"} },
+    { "keys": ["super+,"], "command": "run_macro_file", "args": {"file": "Packages/User/Add EOF Comma.sublime-macro"} },
+    { "keys": ["super+."], "command": "run_macro_file", "args": {"file": "Packages/User/Add EOL Period.sublime-macro"} },
+    { "keys": ["super+ctrl+,"], "command": "run_macro_file", "args": {"file": "Packages/User/Add Line Comma.sublime-macro"} },
+    { "keys": ["f2"], "command": "rename_file" },
+    { "keys": ["ctrl+super+c"], "command": "show_original_part" },
+    { "keys": ["super+shift+o"], "command": "file_navigator"},
+    // Vintage mode
+    { "keys": ["super+u"], "command": "scroll_lines", "args": {"amount": 30.0}, "context": [{ "key": "setting.command_mode" }]},
+    { "keys": ["super+d"], "command": "scroll_lines", "args": {"amount": -30.0}, "context": [{"key": "setting.command_mode"}]},
+    { "keys": [",", "f"], "command": "run_macro_file", "args": {"file": "Packages/User/cut_function.sublime-macro"} },
+    { "keys": [",", "F"], "command": "run_macro_file", "args": {"file": "Packages/User/copy_function.sublime-macro"} },
+    { "keys": [",", "O"], "command": "run_macro_file", "args": {"file": "Packages/User/command-mode-newline-above.sublime-macro"} },
+    { "keys": [",", "o"], "command": "run_macro_file", "args": {"file": "Packages/User/command-mode-newline-below.sublime-macro"} },
+    { "keys": ["ctrl+shift+o"], "command": "show_overlay", "args": {"overlay": "goto", "text": "@"} },
+    { "keys": ["k", "j"], "command": "exit_insert_mode", "context":
+        [
+            { "key": "setting.command_mode", "operand": false },
+            { "key": "setting.is_widget", "operand": false }
+        ]
+    },
+    { "keys": ["ctrl+d"], "command": "find_under_expand", "context":
+        [
+            { "key": "setting.command_mode", "operand": true }
+        ]
+    },
+    { "keys": ["ctrl+u"], "command": "soft_undo", "context":
+        [
+            { "key": "setting.command_mode", "operand": true }
+        ]
+    },
+    { "keys": ["ctrl+w"], "command": "close",
+        "context": [{"key": "setting.vintage_ctrl_keys"}, {"key": "setting.command_mode"}]
+    },
+    { "keys": ["ctrl+y"], "command": "redo_or_repeat",
+        "context": [{"key": "setting.vintage_ctrl_keys"}, {"key": "setting.command_mode"}]
+    },
+    { "keys": ["i"], "command": "enter_insert_mode",
+      "context":
+      [
+            {"key": "setting.command_mode"},
+            { "key": "num_selections", "operator": "not_equal", "operand": 1 }
+      ]
+    }
+]

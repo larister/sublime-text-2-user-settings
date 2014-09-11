@@ -1,0 +1,9 @@
+<snippet>
+    <content><![CDATA[
+afterEach(function(){
+    $1
+});
+]]></content>
+    <tabTrigger>afterEach</tabTrigger>
+    <scope>source.js</scope>
+</snippet>

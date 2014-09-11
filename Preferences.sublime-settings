@@ -1,0 +1,32 @@
+{
+	"auto_reload_changed": false,
+	"bold_folder_labels": false,
+	"caret_style": "phase",
+	"color_scheme": "Packages/Theme - Brogrammer/brogrammer.tmTheme",
+	"detect_indentation": true,
+	"detect_slow_plugins": false,
+	"font_size": 12.0,
+	"highlight_line": true,
+	"ignored_packages":
+	[
+		"SublimeServer",
+		"WordCount",
+		"AppleScript",
+		"Jasmine",
+		"Pretty JSON",
+		"sublime-github",
+		"TernJS",
+		"VintageEx"
+	],
+	"line_padding_bottom": 1,
+	"line_padding_top": 1,
+	"show_full_path": true,
+	"tab_size": 4,
+	"theme": "Brogrammer.sublime-theme",
+	"translate_tabs_to_spaces": true,
+	"trim_automatic_white_space": true,
+	"trim_trailing_white_space_on_save": true,
+	"vintage_ctrl_keys": true,
+	"vintage_start_in_command_mode": true,
+	"vintage_use_clipboard": false
+}

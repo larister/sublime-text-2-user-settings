@@ -1,0 +1,21 @@
+<snippet>
+    <content><![CDATA[
+define(['src/${1:type}/${2:Name}'], function($2){
+    'use strict';
+
+    describe('$2', function(){
+        var ${3:variable};
+
+        beforeEach(function(){
+            $3 = new $2({
+                $4
+            });
+        });
+
+        $5
+    });
+});
+]]></content>
+    <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+    <tabTrigger>definetest</tabTrigger>
+</snippet>

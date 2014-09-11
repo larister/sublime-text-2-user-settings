@@ -1,0 +1,22 @@
+{
+	"history":
+	{
+		"-3052897379777513557":
+		{
+			"command": "insert_nums",
+			"date": 1387290929.84,
+			"label": "\\i(4,M)",
+			"separator": null,
+			"text": "4 1 1"
+		}
+	},
+	"last_command":
+	{
+		"command": "insert_nums",
+		"index": 1,
+		"key": "-3052897379777513557",
+		"label": "\\i(4,M)",
+		"separator": null,
+		"text": "4 1 1"
+	}
+}

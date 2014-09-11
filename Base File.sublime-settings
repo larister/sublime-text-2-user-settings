@@ -1,0 +1,41 @@
+{
+    "jshint_options":
+    {
+        "boss": true,
+        "browser": true,
+        "evil": true,
+        "globalstrict": true,
+        "jquery": true,
+        "node": true,
+        "strict": true,
+        "predef":
+        [
+            "alert",
+            "confirm",
+            "Modernizr",
+            "_",
+            "async",
+            "moment",
+            "Backbone",
+            "Highcharts",
+            "define",
+            "require",
+            "sinon",
+            "describe",
+            "it",
+            "expect",
+            "asyncSpecWait",
+            "asyncSpecDone",
+            "beforeEach",
+            "afterEach",
+            "runs",
+            "waitsFor",
+            "waits",
+            "spyOn",
+            "JSLitmus"
+        ]
+    },
+    "sublimelinter_executable_map": {
+        "javascript": "/home/alastair/local/bin/node"
+    }
+}
