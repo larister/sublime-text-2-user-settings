@@ -1,0 +1,46 @@
+{
+	"auto_upgrade_ignore":
+	[
+		"Theme - Brogrammer"
+	],
+	"auto_upgrade_last_run": null,
+	"installed_packages":
+	[
+		"Alignment",
+		"Automatic Backups",
+		"Backbone.js",
+		"Boron Color Scheme",
+		"CoffeeScript",
+		"Color Highlighter",
+		"EditorConfig",
+		"Emmet",
+		"File Navigator",
+		"FileDiffs",
+		"Gist",
+		"Git",
+		"HTML Mustache",
+		"Jasmine",
+		"JsFormat",
+		"Missing Palette Commands",
+		"Modific",
+		"Package Control",
+		"Prefixr",
+		"Pretty JSON",
+		"SideBarEnhancements",
+		"SideBarGit",
+		"sublime-github",
+		"SublimeBlockCursor",
+		"SublimeLinter",
+		"Surround",
+		"Tab Filter",
+		"Tag",
+		"TernJS",
+		"Text Pastry",
+		"Theme - Brogrammer",
+		"Theme - Flatland",
+		"Vintage Surround",
+		"VintageEx",
+		"VintageLines",
+		"WordCount"
+	]
+}

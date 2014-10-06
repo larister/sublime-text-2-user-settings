@@ -19,6 +19,9 @@
     { "keys": [",", "F"], "command": "run_macro_file", "args": {"file": "Packages/User/copy_function.sublime-macro"} },
     { "keys": [",", "O"], "command": "run_macro_file", "args": {"file": "Packages/User/command-mode-newline-above.sublime-macro"} },
     { "keys": [",", "o"], "command": "run_macro_file", "args": {"file": "Packages/User/command-mode-newline-below.sublime-macro"} },
+    { "keys": [",", "d"], "command": "toggle_bookmark" },
+    { "keys": [",", "D"], "command": "next_bookmark" },
+    { "keys": [",", "c"], "command": "clear_bookmarks" },
     { "keys": ["super+shift+o"], "command": "show_overlay", "args": {"overlay": "goto", "text": "@"} },
     { "keys": ["k", "j"], "command": "exit_insert_mode", "context":
         [

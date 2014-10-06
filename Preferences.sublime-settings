@@ -16,7 +16,8 @@
 		"Pretty JSON",
 		"sublime-github",
 		"TernJS",
-		"VintageEx"
+		"VintageEx",
+		"Color Highlighter"
 	],
 	"line_padding_bottom": 1,
 	"line_padding_top": 1,
